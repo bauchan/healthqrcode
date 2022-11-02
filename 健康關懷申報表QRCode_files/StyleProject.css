@@ -1,0 +1,287 @@
+﻿/* Form - 外邊框間距5px */
+.formmargin
+{
+	margin: 10px;
+}
+
+/* 通用表格(1) - 欄位間距2px, 表格與外部間距(外邊框)5px */
+.tblCss
+{
+	border-spacing: 2px;
+    margin:5px;
+}
+
+/* 通用表格(2) - 表格寬度100%, 欄位間距2px, 表格與外部間距(外邊框)5px */
+.tblCss_w1
+{
+	width: 100%;
+	border-spacing: 2px;
+    margin:5px;
+}
+
+/* 通用表格(3) - 每列高度20px, 欄位間距2px, 框線, 框線合併, 表格與外部間距(外邊框)5px */
+.tb_Border, .th_Border, .td_Border
+{
+    height: 20px;
+	border-spacing: 2px;
+    border:1px solid Gray;
+    border-collapse:collapse;  
+    margin:5px; 
+}
+
+/* 欄位(1) - 欄寬12%, 靠右對齊 */
+.tdCss_R{
+    width: 12%;
+    text-align:right;
+    font-family: Tahoma, 新細明體;
+	font-size: 12px;
+}
+
+/* 欄位(2) - 欄寬12%, 靠左對齊 */
+.tdCss_L{
+    width: 12%;
+    text-align: left;
+    font-family: Tahoma, 新細明體;
+	font-size: 12px;
+}
+
+/* 欄位CSS(3) - 欄寬12%, 置中對齊 */
+.tdCss_C
+{
+    width: 12%;
+	text-align:center ;
+    font-family: Tahoma, 新細明體;
+	font-size: 12px;
+}
+
+/* 圖形文字(1) - 高度14px */
+.imgText
+{
+	height: 14px;
+}
+
+/* 圖形文字(2) - 高度12px */
+.imgText2
+{
+	height: 12px;
+}
+
+/* 圖形文字(2) - 高度16px */
+.imgText16
+{    
+	height: 24px;
+}
+
+/* 圖形文字(3) - 高度64px */
+.imgTitle
+{
+	height: 64px;
+}
+
+/* Label - 字型, 大小12px, 寬度100px */
+.LblCss
+{
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+	width: 100px;
+}
+
+/* DropdownList - 字型, 大小12px, 寬度120px */
+.DdlCss
+{
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    width: 120px;
+}
+
+/* Textbox - 框線, 字型, 大小12px, 高度40px, 寬度100% */
+.TextBoxCss
+{
+	border: 1px solid #01AFFF;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    height:40px;
+	width: 100%;
+}
+
+/* Textbox(2) - 框線, 字型, 大小12px, 高度40px, 寬度100% */
+.TextBoxCss_L
+{
+	border: 1px solid #01AFFF;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    height:40px;
+	width: 100%;
+}
+
+/* Textbox(3) - 框線, 字型, 大小12px, 高度40px, 寬度100% */
+.TextBoxCss_LH
+{
+	border: 1px solid #01AFFF;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+	height: 40px;
+    width: 100%;
+}
+
+/* Textbox - 框線, 字型, 大小12px, 高度40px, 寬度100% */
+.TextBoxNormal
+{
+	border: 1px solid #01AFFF;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+}
+
+/* button - 字型, 大小12px */
+.btnCss{
+    font-family: Tahoma, 新細明體;
+	font-size: 12px;
+}
+
+/* date - 置中對齊 */
+.date{
+    text-align: center;
+}
+
+/* 通用字型16 - 字型, 大小16px */
+.FontCss_16{
+    font-family: Tahoma, 新細明體;
+	font-size: 16px;
+}
+
+/* 通用字型14 - 字型, 大小14px */
+.FontCss_14{
+    font-family: Tahoma, 新細明體;
+	font-size: 14px;
+}
+
+/* 通用字型12 - 字型, 大小12px */
+.FontCss_12{
+    font-family: Tahoma, 新細明體;
+	font-size: 12px;
+}
+
+/* 通用字型12 - 字型, 大小12px */
+.FontCss_10{
+    font-family: Tahoma, 新細明體;
+	font-size: 10px;
+}
+
+
+/* ********************************************************* */
+/* 主標題 - 字型, 大小12px, 寬度100px */
+.MainTitleCss
+{
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    font-weight: bold;
+    color: #01AFFF;
+	width: 100px;
+    
+}
+
+/* 子標題 - 字型, 大小12px, 寬度100px */
+.SubTitleCss
+{
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    font-weight: bold;
+    color: #01AFFF;
+	width: 100px;
+}
+
+/* 表格欄位(1欄) - 欄寬100%, 靠左對齊 */
+.tdCss_L1T{
+    width: 100%;
+    text-align: left;
+}
+
+/* 表格欄位(4欄) - 欄寬30%, 靠左對齊 */
+.tdCss_L4T{
+    width: 20%;
+    text-align: left;
+}
+
+.tdCss_L4D{
+    width: 30%;
+    text-align: left;
+}
+
+/* 表格欄位(4欄) - 欄寬30%, 靠右對齊 */
+.tdCss_R4T{
+    width: 20%;
+    text-align: right;
+}
+
+.tdCss_R4D{
+    width: 30%;
+    text-align: right;
+}
+
+/* 表格欄位(4欄) - 欄寬30%, 置中對齊 */
+.tdCss_C4T{
+    width: 20%;
+    text-align: center;
+}
+
+.tdCss_C4D{
+    width: 30%;
+    text-align: center;
+}
+
+/* 分隔線 -  */
+.hrCss_Title{
+    border:0; 
+    height:1px; 
+    background-color:#d4d4d4;
+    color: #d4d4d4;
+    width: 100%;    
+}
+
+/* Label - 字型, 大小12px, 寬度100px, 橘色字型 */
+.LblCss_ShowMsg
+{
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    color: DarkOrange;
+	width: 100px;
+}
+
+/* Textbox - 框線, 字型, 大小12px, 高度20px, 寬度100% */
+.TextBoxCss_EditForm
+{
+	border: 1px solid #01AFFF;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    height:20px;
+	width: 100%;
+}
+
+/* Textbox - 框線, 字型, 大小12px, 高度20px, 寬度100% */
+.TextBoxCss_EditFormMust
+{
+	border: 2px solid #01AFFF;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    height:20px;
+	width: 100%;
+}
+
+/* Textbox - 不顯示 */
+.TextBoxCss_NoShow
+{
+	border: none;
+	border-style: none;
+    color: white;
+    background-color: white;
+}
+
+/* Textbox - 不顯示border */
+.TextBoxCss_NoBorder
+{
+	border: none;
+	border-style: none;
+	font-family: Tahoma, 新細明體;
+	font-size: 12px;
+    height:20px;
+	width: 100%;
